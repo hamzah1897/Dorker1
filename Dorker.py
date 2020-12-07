@@ -101,4 +101,4 @@ for dork in f.read().split("\n"):
         break
     print "[+] Searching for dork: '"+dork+"'"
     spyder('http://www.google.com/search?hl=en&q='+urllib.quote_plus(dork),1)
-f.close()┌──(root💀DESKTOP-GK8U1RE)-[/home/kali/dork/Dorker1]
+f.close()
