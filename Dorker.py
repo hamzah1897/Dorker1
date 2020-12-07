@@ -42,7 +42,7 @@ def test(target,testchar):
                     for x in resp.read().split(" "):
                         if keyword in x:
                             print "[+] Found keyword '"+keyword+"' at "+target+testchar
-                            f=open("SQLi_Vulnerable.txt","a")
+                            f=open("vuln.txt","a")
                             f.write(targettest+"\r\n")
                             f.close()
                             break
